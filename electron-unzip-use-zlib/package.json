@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/atom/electron-quick-start/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme"
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "dependencies": {
+    "glob": "^6.0.4",
+    "jquery": "^2.2.0",
+    "temp": "^0.8.3",
+    "unzip": "^0.1.11"
+  }
 }

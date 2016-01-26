@@ -5,9 +5,13 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="image-container"></div>
+    <form class="zip-uploader-form">
+      <label>
+        点击或拖动 zip 文件到下方的按钮：
+        <input type="file" name="zip-uploader" />
+      </label>
+    </form>
+    <script type="text/javascript" src="./src/app.js"></script>
   </body>
 </html>
