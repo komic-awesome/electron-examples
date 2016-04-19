@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>豆瓣相册下载器</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/index.css">
+  </head>
+  <body>
+    <main>
+      <h1>豆瓣相册下载器</h1>
+      <form class="download-album form-horizontal">
+        <div class="form-group">
+          <label>相册网址</label>
+          <input type="url" class="form-control"
+            value="https://www.douban.com/photos/album/1624388085/"
+            name="album_url" required>
+        </div>
+        <button type="submit" class="btn btn-primary">开始下载</button>
+      </form>
+      <section class="result">
+        <h5>下载进度</h5>
+        <div class="progress">
+          <div class="progress-bar">0%</div>
+        </div>
+        <button type="button"
+          class="btn btn-default open-dest">打开已下载相册的位置</button>
+      </section>
+    </main>
+    <script type="text/javascript" src="./src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+main {
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.form-horizontal .form-group {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.result {
+  margin-top: 30px;
+}
